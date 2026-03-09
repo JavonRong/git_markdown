@@ -22,7 +22,8 @@
 ### 2.关联仓库地址
     git remote add origin +仓库地址
 ### 3.第一次上传
-    git push -u origin main
-
+    git push -u origin main https://github.com/JavonRong/git_markdown
+    或者
+    git push -u origin master https://github.com/JavonRong/git_markdown
 
 
