@@ -30,3 +30,13 @@
 `git add .`  
 `git commit -m "版本说明"`  
 `git push`  
+
+
+## git 命令函行之Branch
+远程切换分支并关联到本地  
+`git fetch origin `  //让本地git知道远程有新的branch
+`git checkout -b develop origin/develop`  //切到develop分支并且打开这个分支
+
+验证branch是否已经切换，查看当前branch
+`git branch`  
+`git branch -vv`  
